@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "guiscale26",
+  "version": "1.0.0",
+  "name": "GUI Scale 2.6",
+  "description": "Forces GUI scale to 2.6",
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "guiscale26.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
